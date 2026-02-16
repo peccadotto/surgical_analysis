@@ -28,7 +28,7 @@ The `surgical_analysis.R` script includes a routine to automatically check for a
 
 ### Usage Instructions
 1. **Data Setup** - Ensure your surgical data files are in the `data/` folder following the naming convention `surgical_data_YYYY.csv`.
-2. **Data Processing** - Run `surgical_analysis.R`. This script will process the raw data and save the workspace as `surgical_analysis.RData`.
+2. **Data Processing** - Run `surgical_analysis.R`. This script will process the raw data, performs cleaning and prepares the environment for the report.
 3. **Generate Report** - Open `surgical_analysis.Rmd` in RStudio and click the **Knit** button to produce the final `surgical_analysis.html` report.
 
 ---
